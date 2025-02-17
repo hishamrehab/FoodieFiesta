@@ -401,8 +401,8 @@
     padding: 9.6rem 0;
 }
 
-.pricing-plan {
-    border-radius: 11px;
+.pricing-plan { 
+     border-radius: 11px;
     -webkit-border-radius: 11px;
     -moz-border-radius: 11px;
     -ms-border-radius: 11px;
@@ -420,11 +420,35 @@
 .pricing-plan--starter {
     justify-self: end;
     border: 2px solid #fdf2e9;
+    padding: 4.8rem;
 }
 
 .pricing-plan--complete {
     background-color: #fdf2e9;
+    padding: 4.8rem;
+    /* padding: 4.8rem; */
+    position: relative;
+    overflow: hidden;
 }
+
+.pricing-plan--complete::after {
+  content: "Best Value";
+  position: absolute;
+  text-transform: uppercase;
+  font-size: 1.4rem;
+  font-weight: 700;
+  top: 6%;
+  right: -18%;
+  background-color: #ffd34b;
+  padding: 0.8rem 8rem;
+  color: #333;
+  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+  -moz-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  -o-transform: rotate(45deg); 
+}
+
 .plan-name {
     color: #cf711f;
     font-weight: 600;
@@ -433,6 +457,7 @@
     letter-spacing: 0.75;
     margin-bottom: 3.2rem;
 }
+
 .plan-price{
     font-size: 6.2rem;
     font-weight: 600;
@@ -456,4 +481,31 @@
 .plan-sign-up {
     text-align: center;
     margin-top: 4.8rem;
+}
+
+.feature-icon {
+    color: #e67e22;
+    height: 3.2rem;
+    width: 3.2rem;
+    margin-bottom: 3.2rem;
+    background-color: #fdf2e9;
+    padding: 1.6rem;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
+.feature-title {
+    font-size: 2.4rem;
+    color: #333;
+    font-weight: 700;
+    margin-bottom: 1.6rem;
+}
+
+.feature-text {
+    font-size: 1.8rem;
+    line-height: 1.8;
+
 }
