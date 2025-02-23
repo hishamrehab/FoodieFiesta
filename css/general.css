@@ -214,7 +214,35 @@ strong {
     grid-template-columns: repeat(4, 1fr);
 }
 
+.grid--5-cols {
+    grid-template-columns: repeat(5, 1fr);
+}
+
 .grid--center-v {
     align-items: center;
+}
+
+
+/* FOOTER SECTION */
+
+.footer {
+    padding: 9.6rem 0 ;
+}
+
+.footer-heading {
+     font-size: 1.8rem;
+     font-weight: 500;
+     margin-bottom: 3.2rem;
+} 
+
+.footer-nav {
+     list-style: none;
+}
+
+.footer-link:link ,
+.footer-link:visited {
+    text-decoration: none;
+    font-size: 1.6rem;
+    color: #777;
 }
 
