@@ -585,8 +585,6 @@
 
 }
 
-
-
 .cta  *:focus {
     outline: none;
     box-shadow: 0 0 0 0.8rem  rgba(253 , 353 , 233 ,0.5);

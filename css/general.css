@@ -97,14 +97,14 @@ body {
     box-shadow:inset 0 0 0 3px #fff;
 }
 
-.btn--from {
+.btn--form {
      background-color: #45260a;
      color: #fdd2e9;
      align-self: end;
      padding: 1.2rem ;
 }
 
-.btn--from:hover {
+.btn--form:hover {
     background-color: #fff;
     color: #555;
 }
@@ -153,6 +153,8 @@ body {
     display: flex;
     align-items: center;
     gap: 1.6rem;
+    line-height: 1.2;
+
 }
 
 .list-icon {
